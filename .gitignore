@@ -11,9 +11,7 @@ venv/
 env/
 ENV/
 
-# Models (can be large)
-*.pkl
-*.model
+# Heavy models (exclude large transformer models)
 *.bin
 bert_intent_model/
 bert_results/
