@@ -1,0 +1,305 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Is anyone there?",
+        "Hola",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! Welcome to your personal luxury fashion assistant. How can I help you elevate your style today?",
+        "Hi there! Ready to explore the world of high fashion?",
+        "Greetings. I am at your service for all things luxury."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I'm leaving",
+        "End chat",
+        "Ciao"
+      ],
+      "responses": [
+        "Goodbye! Stay stylish.",
+        "See you soon. Remember, fashion never sleeps.",
+        "Farewell! Come back for more luxury insights."
+      ]
+    },
+    {
+      "tag": "luxury_trends",
+      "patterns": [
+        "What are the latest luxury trends?",
+        "What's trending in high fashion?",
+        "Current fashion trends",
+        "What is popular right now?",
+        "Top trends for this season"
+      ],
+      "responses": [
+        "This season, we are seeing a resurgence of oversized tailoring, bold monograms, and sustainable luxury materials. Brands like Balenciaga and Gucci are leading the way.",
+        "Micro-bags, platform heels, and sheer fabrics are dominating the runways of Paris and Milan.",
+        "Quiet luxury is making a comeback—think logo-free, high-quality cashmere and silk from brands like Loro Piana and The Row."
+      ]
+    },
+    {
+      "tag": "styling_advice",
+      "patterns": [
+        "How should I style a Gucci bag?",
+        "What goes with a leather jacket?",
+        "How to wear a scarf elegantly?",
+        "Outfit ideas for a gala",
+        "Style tips for a summer party"
+      ],
+      "responses": [
+        "For a Gucci bag, try pairing it with a monochrome outfit to let the accessory pop. A beige trench coat works wonders.",
+        "A leather jacket pairs perfectly with a silk slip dress for an edgy yet elegant look.",
+        "To wear a scarf elegantly, try the classic French knot or simply drape it over your shoulders with a belted blazer."
+      ]
+    },
+    {
+      "tag": "gucci_info",
+      "patterns": [
+        "Tell me about Gucci",
+        "Gucci brand history",
+        "What is special about Gucci?",
+        "Latest Gucci collection"
+      ],
+      "responses": [
+        "Gucci, founded in Florence in 1921, is known for its eclectic, contemporary, and romantic designs. Their latest collection features a mix of heritage codes and modern streetwear influences."
+      ]
+    },
+    {
+      "tag": "lv_info",
+      "patterns": [
+        "Tell me about Louis Vuitton",
+        "LV brand info",
+        "What is LV known for?",
+        "Louis Vuitton latest bags"
+      ],
+      "responses": [
+        "Louis Vuitton is a symbol of travel and luxury. Founded in 1854, it is famous for its monogram canvas and high-quality leather goods. Their latest collection focuses on reimagined classics and bold new shapes."
+      ]
+    },
+    {
+      "tag": "prada_info",
+      "patterns": [
+        "Tell me about Prada",
+        "Prada style",
+        "What defines Prada?",
+        "Prada collection info"
+      ],
+      "responses": [
+        "Prada is synonymous with understated elegance and intellectual fashion. Miuccia Prada's designs often challenge conventional beauty standards, offering clean lines and innovative fabrics like Re-Nylon."
+      ]
+    },
+    {
+      "tag": "celine_info",
+      "patterns": [
+        "Tell me about Celine",
+        "Celine aesthetic",
+        "Celine latest trends"
+      ],
+      "responses": [
+        "Celine is celebrated for its minimalist, chic, and wearable designs. Under Hedi Slimane, the brand has embraced a rock-chic aesthetic while maintaining its Parisian heritage."
+      ]
+    },
+    {
+      "tag": "chanel_info",
+      "patterns": [
+        "Tell me about Chanel",
+        "Chanel history",
+        "What makes Chanel special?",
+        "Coco Chanel legacy"
+      ],
+      "responses": [
+        "Chanel is the epitome of timeless elegance. Founded by Gabrielle 'Coco' Chanel, it revolutionized women's fashion with the little black dress, the tweed suit, and the 2.55 bag."
+      ]
+    },
+    {
+      "tag": "dior_info",
+      "patterns": [
+        "Tell me about Dior",
+        "Christian Dior style",
+        "Dior new look",
+        "Dior latest collection"
+      ],
+      "responses": [
+        "Dior is famous for the 'New Look' introduced in 1947, maximizing femininity and luxury. Today, it stands for sophisticated haute couture and iconic accessories like the Lady Dior bag."
+      ]
+    },
+    {
+      "tag": "hermes_info",
+      "patterns": [
+        "Tell me about Hermes",
+        "Hermes brand",
+        "Why is Hermes so expensive?",
+        "Birkin bag info"
+      ],
+      "responses": [
+        "Hermès is the pinnacle of craftsmanship, renowned for its saddlery roots and silk scarves. Their Birkin and Kelly bags are among the most coveted and exclusive items in the world."
+      ]
+    },
+    {
+      "tag": "versace_info",
+      "patterns": [
+        "Tell me about Versace",
+        "Versace style",
+        "Versace brand history"
+      ],
+      "responses": [
+        "Versace is synonymous with bold glamour, vibrant prints, and the Medusa logo. It represents confidence and high-octane luxury."
+      ]
+    },
+    {
+      "tag": "rolex_info",
+      "patterns": [
+        "Tell me about Rolex",
+        "Rolex watches",
+        "Why buy a Rolex?"
+      ],
+      "responses": [
+        "Rolex is the world's most recognized luxury watch brand, famous for its reliability, precision, and retaining value. Models like the Submariner and Daytona are icons."
+      ]
+    },
+    {
+      "tag": "cartier_info",
+      "patterns": [
+        "Tell me about Cartier",
+        "Cartier jewelry",
+        "Cartier love bracelet"
+      ],
+      "responses": [
+        "Cartier, the 'Jeweler of Kings', is famous for the Love bracelet, Panthère collection, and Tank watches. It represents refined luxury and artistic design."
+      ]
+    },
+    {
+      "tag": "ysl_info",
+      "patterns": [
+        "Tell me about Saint Laurent",
+        "YSL brand",
+        "Saint Laurent style"
+      ],
+      "responses": [
+        "Saint Laurent (YSL) is known for its rock 'n' roll chic, Le Smoking tuxedo suit, and modern Parisian edge."
+      ]
+    },
+    {
+      "tag": "burberry_info",
+      "patterns": [
+        "Tell me about Burberry",
+        "Burberry trench coat",
+        "Burberry plaid"
+      ],
+      "responses": [
+        "Burberry is a quintessentially British brand, best known for its iconic trench coats and the distinctive check pattern."
+      ]
+    },
+    {
+      "tag": "styling_wedding",
+      "patterns": [
+        "What should I wear to a luxury wedding?",
+        "Wedding guest outfit ideas",
+        "Black tie wedding attire"
+      ],
+      "responses": [
+        "For a black-tie wedding, opt for a floor-length gown in silk or velvet. Brands like Oscar de la Renta or Valentino offer stunning options. Pair with fine jewelry and heels."
+      ]
+    },
+    {
+      "tag": "styling_business",
+      "patterns": [
+        "What to wear to a business meeting?",
+        "Office chic",
+        "Power dressing tips",
+        "Luxury workwear"
+      ],
+      "responses": [
+        "Power dressing calls for a tailored suit. Think Armani or styling a Chanel tweed jacket with tailored trousers. A structured tote bag is essential."
+      ]
+    },
+    {
+      "tag": "styling_vacation",
+      "patterns": [
+        "Luxury vacation outfits",
+        "Resort wear ideas",
+        "What to wear in St Tropez?"
+      ],
+      "responses": [
+        "For a luxury vacation, go for linen sets, oversized sunglasses, and designer slides. Loewe straw bags and Zimmermann dresses are perfect for resort wear."
+      ]
+    },
+    {
+      "tag": "styling_date",
+      "patterns": [
+        "Date night outfit",
+        "Romantic dinner outfit luxury",
+        "What to wear on a first date?"
+      ],
+      "responses": [
+        "A slip dress paired with strappy heels and a clutch is a timeless date night look. You can also try a silk blouse with leather pants for a modern edge."
+      ]
+    },
+    {
+      "tag": "shoes_info",
+      "patterns": [
+        "Tell me about luxury shoes",
+        "Best designer heels",
+        "Louboutin vs Jimmy Choo"
+      ],
+      "responses": [
+        "Christian Louboutin is famous for red soles, while Jimmy Choo offers glamour and comfort. Manolo Blahnik is the choice for classic elegance."
+      ]
+    },
+    {
+      "tag": "bags_info",
+      "patterns": [
+        "Best investment bags",
+        "It bags of the year",
+        "Classic designer bags"
+      ],
+      "responses": [
+        "The 'Holy Trinity' of investment bags are the Hermès Birkin, Chanel Classic Flap, and Louis Vuitton Speedy. These tend to hold or increase in value."
+      ]
+    },
+    {
+      "tag": "watches_info",
+      "patterns": [
+        "Luxury watches guide",
+        "Best watch brands",
+        "Patek Philippe vs Rolex"
+      ],
+      "responses": [
+        "Patek Philippe, Audemars Piguet, and Rolex are the top tier of horology. They are not just timepieces but heirlooms."
+      ]
+    },
+    {
+      "tag": "investment_advice",
+      "patterns": [
+        "Which fashion items are good investments?",
+        "Does luxury fashion keep value?",
+        "Investment pieces"
+      ],
+      "responses": [
+        "Hermès bags, Rolex watches, and limited-edition collaborations (like Nike x Dior) are the best investment pieces. Classic Chanel flaps also consistently rise in price."
+      ]
+    },
+    {
+      "tag": "care_advice",
+      "patterns": [
+        "How to clean leather bag?",
+        "Care for silk scarf",
+        "Store designer shoes"
+      ],
+      "responses": [
+        "Always store leather bags in their dust bags and stuff them to keep shape. Keep silk away from direct sunlight and perfume. Use shoe trees for leather shoes."
+      ]
+    }
+  ]
+}

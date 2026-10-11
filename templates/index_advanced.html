@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Fashion Bot - Units 3, 4, 5</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_advanced.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🎨 Advanced Fashion Bot</h1>
+            <p class="subtitle">Powered by TF-IDF, Word2Vec, BERT & Hugging Face API</p>
+        </header>
+
+        <!-- Model Selection -->
+        <div class="model-selector">
+            <h3>Select Model:</h3>
+            <div class="model-buttons">
+                <button class="model-btn" data-model="tfidf" title="Unit 3: Baseline Model">
+                    TF-IDF + LR
+                </button>
+                <button class="model-btn" data-model="word2vec" title="Unit 3: Neural Embeddings">
+                    Word2Vec + MLP
+                </button>
+                <button class="model-btn active" data-model="bert" title="Unit 5: Transformer">
+                    BERT
+                </button>
+                <button class="model-btn" data-model="api" title="API Integration">
+                    HF API
+                </button>
+            </div>
+            <div class="current-model">
+                Current: <span id="current-model">BERT</span>
+            </div>
+        </div>
+
+        <!-- Chat Container -->
+        <div class="chat-container">
+            <div class="chat-box" id="chat-box">
+                <div class="bot-message">
+                    <div class="message-content">
+                        <strong>Fashion Bot:</strong> Hello! Welcome to your personal luxury fashion assistant. 
+                        I'm powered by advanced NLP including BERT transformers, SpaCy NER, and keyphrase extraction. 
+                        How can I help you today?
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Input Area -->
+            <div class="input-area">
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    placeholder="Ask about luxury fashion, brands, products..."
+                    autocomplete="off"
+                >
+                <button id="send-btn">Send</button>
+            </div>
+
+            <!-- Advanced Features -->
+            <div class="features">
+                <button class="feature-btn" id="compare-btn" title="Compare all model predictions">
+                    📊 Compare Models
+                </button>
+                <button class="feature-btn" id="info-btn" title="Show NLP concepts">
+                    ℹ️ NLP Info
+                </button>
+                <label class="toggle">
+                    <input type="checkbox" id="advanced-nlp-toggle" checked>
+                    <span>Advanced NLP Analysis</span>
+                </label>
+                <label class="toggle">
+                    <input type="checkbox" id="internet-search-toggle" checked>
+                    <span>🌐 Internet Search (Live Data) - ENABLED</span>
+                </label>
+            </div>
+        </div>
+
+        <!-- Analysis Panel -->
+        <div class="analysis-panel" id="analysis-panel">
+            <h3>🔍 NLP Analysis (Unit 4)</h3>
+            <div class="analysis-content" id="analysis-content">
+                <!-- Analysis results will be displayed here -->
+            </div>
+        </div>
+
+        <!-- Info Modal -->
+        <div class="modal" id="info-modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>NLP Concepts & Technologies</h2>
+                
+                <div class="info-section">
+                    <h3>📚 Unit 3: Neural Embeddings & Deep Learning</h3>
+                    <ul>
+                        <li><strong>TF-IDF:</strong> Term Frequency-Inverse Document Frequency for importance weighting</li>
+                        <li><strong>Logistic Regression:</strong> Linear baseline classifier</li>
+                        <li><strong>Word2Vec:</strong> Distributed word representations capturing semantic meaning</li>
+                        <li><strong>MLP:</strong> Multi-Layer Perceptron neural network</li>
+                    </ul>
+                </div>
+
+                <div class="info-section">
+                    <h3>🔎 Unit 4: Information Extraction</h3>
+                    <ul>
+                        <li><strong>SpaCy NER:</strong> ML-based Named Entity Recognition</li>
+                        <li><strong>KeyBERT:</strong> BERT-based keyphrase extraction</li>
+                        <li><strong>YAKE:</strong> Statistical keyword extraction</li>
+                        <li><strong>Relationship Extraction:</strong> Subject-verb-object patterns</li>
+                        <li><strong>Sentiment Analysis:</strong> Emotion detection in text</li>
+                    </ul>
+                </div>
+
+                <div class="info-section">
+                    <h3>🤖 Unit 5: Transformers & Advanced Models</h3>
+                    <ul>
+                        <li><strong>BERT:</strong> Bidirectional Encoder Representations from Transformers</li>
+                        <li><strong>Self-Attention:</strong> Weighs importance of words in context</li>
+                        <li><strong>Multi-Head Attention:</strong> Parallel attention mechanisms</li>
+                        <li><strong>Fine-tuning:</strong> Adapting pre-trained models to specific tasks</li>
+                        <li><strong>Transfer Learning:</strong> Leveraging knowledge from large corpora</li>
+                    </ul>
+                </div>
+
+                <div class="info-section">
+                    <h3>🌐 API Integration</h3>
+                    <ul>
+                        <li><strong>Hugging Face API:</strong> Cloud-based model inference</li>
+                        <li><strong>Zero-shot Classification:</strong> Classification without training</li>
+                        <li><strong>Benefits:</strong> Scalable, no local storage, state-of-the-art models</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script_advanced.js') }}"></script>
+</body>
+</html>
